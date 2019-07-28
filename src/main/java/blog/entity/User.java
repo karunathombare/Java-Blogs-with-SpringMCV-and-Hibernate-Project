@@ -21,7 +21,7 @@ public class User {
 	private String password;
 	private boolean enabled;
 	
-
+	@ManyToMany
 	@JoinTable
 	private List<Role> roles;
 	
